@@ -1,0 +1,6 @@
+[submodule "staphb"]
+	path = staphb
+	url = https://github.com/stitam/docker-builds
+[submodule "biocontainers"]
+	path = biocontainers
+	url = https://github.com/stitam/containers
