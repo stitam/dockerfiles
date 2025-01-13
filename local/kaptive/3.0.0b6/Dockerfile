@@ -49,6 +49,10 @@ RUN conda init bash \
     && conda create --name kaptive \
     && conda activate kaptive
 
+# Set MPLCONFIGDIR for matplotlib
+RUN mkdir -p /scratch/matplotlib
+ENV MPLCONFIGDIR=/scratch/matplotlib
+
 WORKDIR /data
 
 # test layer
